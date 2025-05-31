@@ -11,7 +11,7 @@ def ejecutar_tarea1():
     x_n = np.sin(2 * np.pi * f * n)
     continuous_plotter(time, x_t, title="señal senoidal continua", graph_label="continua")
     discrete_plotter(n, x_n, title="señal senoidal discreta", graph_label="discreta")
-    overlay_plotter(time, x_t, n, x_n, title="", graph_label1="continua", graph_label2="distreca")
+    overlay_plotter(time, x_t, n, x_n, title="señal senoidal continua y discreta", graph_label1="continua", graph_label2="distreca")
 
     x_t = np.exp(-2 * time) * (time >= 0)
     x_n = np.exp(-2 * n) * (n >= 0)
