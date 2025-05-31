@@ -7,7 +7,6 @@ def ejecutar_tarea1():
     time = np.linspace(-1, 5, 1000)    
     Ts = 0.01
     n = np.arange(-1, 5, Ts)          
-
     x_t = np.sin(2 * np.pi * f * time)
     x_n = np.sin(2 * np.pi * f * n)
     continuous_plotter(time, x_t, title="señal senoidal continua", graph_label="continua")
