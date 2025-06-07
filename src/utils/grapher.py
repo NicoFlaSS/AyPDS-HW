@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 
 def continuous_plotter(
-        ind_var, dep_var,
+        ind_var, dep_var, 
         title: str = "", graph_label: str = "",
         x_label: str = "", y_label: str = ""):
     plt.plot(ind_var, dep_var, label=graph_label)
@@ -38,3 +38,6 @@ def overlay_plotter(
     plt.legend(loc='upper right')
     plt.grid(True)
     plt.show()
+
+
+
