@@ -18,7 +18,7 @@ def ejecutar_tarea4(num_bits):
     continuous_plotter(
         entradas_digitales, salidas_analogicas,
         title=f'DAC de {num_bits} bits',
-        graph_label='Salida Analógica',
-        x_label='Entrada Digital',
+        graph_label='Salida analógica',
+        x_label='Entrada digital',
         y_label='Voltaje [V]'
     )
